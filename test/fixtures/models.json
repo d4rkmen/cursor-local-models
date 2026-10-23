@@ -1,0 +1,71 @@
+{
+  "anthropic/claude-opus-5-5": {
+    "name": "Claude Opus 5.5",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "vendor/chat": {
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "supports_reasoning": true,
+      "supports_streaming": true,
+      "supports_tool_use": true
+    }
+  },
+  "vendor/chat-ns": {
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "supports_streaming": false,
+      "supports_tool_use": true
+    }
+  },
+  "anthropic/x": {
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 2000,
+      "supports_reasoning": true,
+      "supports_streaming": true,
+      "supports_tool_use": true
+    }
+  },
+  "anthropic/x-ns": {
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "supports_streaming": false,
+      "supports_tool_use": true
+    }
+  },
+  "deepseek/deepseek-v4-flash": {
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 384000,
+      "supports_reasoning": true,
+      "supports_streaming": true,
+      "supports_tool_use": true
+    }
+  }
+}

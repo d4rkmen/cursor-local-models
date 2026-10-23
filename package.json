@@ -1,0 +1,58 @@
+{
+  "name": "cursor-local-models",
+  "displayName": "Cursor Local Models",
+  "description": "For Cursor Private Inference: enrich provider models with catalog capabilities and translate model APIs through a loopback gateway.",
+  "version": "0.7.0",
+  "publisher": "local",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": { "vscode": "^1.128.0" },
+  "main": "./out/extension.js",
+  "scripts": {
+    "test": "node test/run.js && node test/extension.js",
+    "prepackage": "npm test",
+    "package": "npx --yes @vscode/vsce@latest package --allow-missing-repository --skip-license --allow-star-activation"
+  },
+  "extensionKind": ["ui"],
+  "activationEvents": ["*"],
+  "categories": ["Other"],
+  "keywords": ["cursor", "local", "llm", "ollama", "openai", "responses"],
+  "contributes": {
+    "configuration": {
+      "title": "Cursor Local Models",
+      "properties": {
+        "cursorLocalModels.enabled": {
+          "type": "boolean",
+          "default": true,
+          "order": 0,
+          "description": "Run the loopback gateway for Cursor PI."
+        },
+        "cursorLocalModels.upstream": {
+          "type": "string",
+          "default": "",
+          "order": 1,
+          "description": "Actual provider base URL, including /v1. All model requests and discovery go here; do not use this extension's loopback URL."
+        },
+        "cursorLocalModels.port": {
+          "type": "integer",
+          "default": 41100,
+          "minimum": 1,
+          "maximum": 65535,
+          "order": 2,
+          "description": "Gateway port on 127.0.0.1. Set Cursor PI's Gateway base URL to http://127.0.0.1:<port>/v1."
+        },
+        "cursorLocalModels.apiKeyEnv": {
+          "type": "string",
+          "default": "CURSOR_LOCAL_MODELS_API_KEY",
+          "order": 3,
+          "description": "Environment variable holding the provider key, used when no key is stored in SecretStorage."
+        }
+      }
+    },
+    "commands": [
+      { "command": "cursorLocalModels.setApiKey", "title": "Cursor Local Models: Set API key" },
+      { "command": "cursorLocalModels.status", "title": "Cursor Local Models: Show status" },
+      { "command": "cursorLocalModels.restartGateway", "title": "Cursor Local Models: Restart gateway" }
+    ]
+  }
+}

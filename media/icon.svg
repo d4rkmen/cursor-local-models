@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Cursor Local Models">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#312E81"/>
+      <stop offset="0.55" stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#0B1120"/>
+    </linearGradient>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="120" height="120" rx="27" fill="url(#bg)"/>
+  <rect x="4" y="4" width="120" height="120" rx="27" fill="none" stroke="#6366F1" stroke-opacity="0.55" stroke-width="1.5"/>
+  <circle cx="48" cy="64" r="30" fill="#22D3EE" opacity="0.12" filter="url(#soft)"/>
+
+  <!-- incoming request -->
+  <line x1="20" y1="64" x2="32" y2="64" stroke="#F472B6" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="18" cy="64" r="3.5" fill="#F472B6"/>
+
+  <!-- routes to models -->
+  <g fill="none" stroke="url(#wire)" stroke-width="2.5" stroke-linecap="round">
+    <path d="M64 64 C73 64 71 40 80 40"/>
+    <path d="M64 64 L80 64"/>
+    <path d="M64 64 C73 64 71 88 80 88"/>
+  </g>
+
+  <!-- gateway hub -->
+  <path d="M48 45 L64.5 54.5 L64.5 73.5 L48 83 L31.5 73.5 L31.5 54.5 Z" fill="url(#hub)" stroke="#E0E7FF" stroke-opacity="0.35" stroke-width="1" stroke-linejoin="round"/>
+  <circle cx="48" cy="64" r="8.5" fill="#1E1B4B"/>
+  <circle cx="48" cy="64" r="3.5" fill="#67E8F9"/>
+
+  <!-- local model cards -->
+  <g stroke="#818CF8" stroke-opacity="0.8" stroke-width="1.5">
+    <rect x="80" y="33" width="30" height="14" rx="4" fill="#1E1B4B"/>
+    <rect x="80" y="57" width="30" height="14" rx="4" fill="#1E1B4B"/>
+    <rect x="80" y="81" width="30" height="14" rx="4" fill="#1E1B4B"/>
+  </g>
+  <circle cx="87" cy="40" r="2.5" fill="#34D399"/>
+  <circle cx="87" cy="64" r="2.5" fill="#34D399"/>
+  <circle cx="87" cy="88" r="2.5" fill="#FDE68A"/>
+  <rect x="93" y="38.5" width="12" height="3" rx="1.5" fill="url(#hub)"/>
+  <rect x="93" y="62.5" width="9" height="3" rx="1.5" fill="url(#hub)" opacity="0.85"/>
+  <rect x="93" y="86.5" width="11" height="3" rx="1.5" fill="url(#hub)" opacity="0.6"/>
+
+  <path d="M28 18 C28.9 25.5 30.5 27.1 38 28 C30.5 28.9 28.9 30.5 28 38 C27.1 30.5 25.5 28.9 18 28 C25.5 27.1 27.1 25.5 28 18 Z" fill="url(#spark)"/>
+</svg>

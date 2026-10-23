@@ -1,0 +1,6 @@
+test/**
+*.vsix
+.vscode/**
+.gitignore
+icon-512.png
+icon.svg

@@ -1,0 +1,2623 @@
+{
+  "anthropic/claude-fable-5-1": {
+    "name": "Claude Fable 5.1",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-fable-5": {
+    "name": "Claude Fable 5",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-opus-5-5": {
+    "name": "Claude Opus 5.5",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-opus-5": {
+    "name": "Claude Opus 5",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-opus-4-8": {
+    "name": "Claude Opus 4.8",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-opus-4-7": {
+    "name": "Claude Opus 4.7",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-opus-4-6": {
+    "name": "Claude Opus 4.6",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-opus-4-5-20251101": {
+    "name": "Claude Opus 4.5 20251101",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 64000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-opus-4-1-20250805": {
+    "name": "Claude Opus 4.1 20250805",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 32000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-sonnet-5": {
+    "name": "Claude Sonnet 5",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-sonnet-4-6": {
+    "name": "Claude Sonnet 4.6",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-sonnet-4-5-20250929": {
+    "name": "Claude Sonnet 4.5 20250929",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 64000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "anthropic/claude-haiku-4-5-20251001": {
+    "name": "Claude Haiku 4.5 20251001",
+    "api_types": [
+      "anthropic_messages"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 64000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "cerebras/qwen-3.8-27b": {
+    "name": "Nitro Qwen",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 131072,
+      "max_output_tokens": 40960,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-6-astra": {
+    "name": "GPT 6 Astra",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.6-sol": {
+    "name": "GPT 5.6 Sol",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.6-terra": {
+    "name": "GPT 5.6 Terra",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.6-luna": {
+    "name": "GPT 5.6 Luna",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.5": {
+    "name": "GPT 5.5",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.5-pro": {
+    "name": "GPT 5.5 Pro",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.4": {
+    "name": "GPT 5.4",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.4-pro": {
+    "name": "GPT 5.4 Pro",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.4-mini": {
+    "name": "GPT 5.4 Mini",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.4-nano": {
+    "name": "GPT 5.4 Nano",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.3-codex": {
+    "name": "GPT 5.3 Codex",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.3-chat-latest": {
+    "name": "GPT 5.3 Chat Latest",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.2": {
+    "name": "GPT 5.2",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.2-pro": {
+    "name": "GPT 5.2 Pro",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.2-codex": {
+    "name": "GPT 5.2 Codex",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.2-chat-latest": {
+    "name": "GPT 5.2 Chat Latest",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.1": {
+    "name": "GPT 5.1",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.1-codex": {
+    "name": "GPT 5.1 Codex",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.1-codex-max": {
+    "name": "GPT 5.1 Codex Max",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.1-codex-mini": {
+    "name": "GPT 5.1 Codex Mini",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.1-chat-latest": {
+    "name": "GPT 5.1 Chat Latest",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5": {
+    "name": "GPT 5",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-pro": {
+    "name": "GPT 5 Pro",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 272000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-mini": {
+    "name": "GPT 5 Mini",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-nano": {
+    "name": "GPT 5 Nano",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-codex": {
+    "name": "GPT 5 Codex",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-chat-latest": {
+    "name": "GPT 5 Chat Latest",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4.1": {
+    "name": "GPT 4.1",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1047576,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4.1-mini": {
+    "name": "GPT 4.1 Mini",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1047576,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4.1-nano": {
+    "name": "GPT 4.1 Nano",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1047576,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4o": {
+    "name": "GPT 4o",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4o-mini": {
+    "name": "GPT 4o Mini",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4-turbo": {
+    "name": "GPT 4 Turbo",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4": {
+    "name": "GPT 4",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 8192,
+      "max_output_tokens": 8192,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/o3": {
+    "name": "O3",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/o3-pro": {
+    "name": "O3 Pro",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/o3-mini": {
+    "name": "O3 Mini",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "openai/o4-mini": {
+    "name": "O4 Mini",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/o1": {
+    "name": "O1",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/o1-pro": {
+    "name": "O1 Pro",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/chat-latest": {
+    "name": "Chat Latest",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-3.5-turbo": {
+    "name": "GPT 3.5 Turbo",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 16385,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-3.5-turbo-0125": {
+    "name": "GPT 3.5 Turbo 0125",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 16385,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-3.5-turbo-1106": {
+    "name": "GPT 3.5 Turbo 1106",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 16385,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-3.5-turbo-16k": {
+    "name": "GPT 3.5 Turbo 16k",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 16385,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-4-0613": {
+    "name": "GPT 4.0613",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 8192,
+      "max_output_tokens": 8192,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-4-turbo-2024-04-09": {
+    "name": "GPT 4 Turbo 2024.04 09",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4.1-2025-04-14": {
+    "name": "GPT 4.1 2025.04 14",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1047576,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4.1-mini-2025-04-14": {
+    "name": "GPT 4.1 Mini 2025.04 14",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1047576,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4.1-nano-2025-04-14": {
+    "name": "GPT 4.1 Nano 2025.04 14",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1047576,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4o-2024-05-13": {
+    "name": "GPT 4o 2024.05 13",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4o-2024-08-06": {
+    "name": "GPT 4o 2024.08 06",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4o-2024-11-20": {
+    "name": "GPT 4o 2024.11 20",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4o-mini-2024-07-18": {
+    "name": "GPT 4o Mini 2024.07 18",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-4o-mini-search-preview": {
+    "name": "GPT 4o Mini Search Preview",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-4o-mini-search-preview-2025-03-11": {
+    "name": "GPT 4o Mini Search Preview 2025.03 11",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-4o-search-preview": {
+    "name": "GPT 4o Search Preview",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-4o-search-preview-2025-03-11": {
+    "name": "GPT 4o Search Preview 2025.03 11",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 16384,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "openai/gpt-5-2025-08-07": {
+    "name": "GPT 5.2025 08.07",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-mini-2025-08-07": {
+    "name": "GPT 5 Mini 2025.08 07",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-nano-2025-08-07": {
+    "name": "GPT 5 Nano 2025.08 07",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-pro-2025-10-06": {
+    "name": "GPT 5 Pro 2025.10 06",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 272000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-search-api": {
+    "name": "GPT 5 Search Api",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5-search-api-2025-10-14": {
+    "name": "GPT 5 Search Api 2025.10 14",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.1-2025-11-13": {
+    "name": "GPT 5.1 2025.11 13",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.2-2025-12-11": {
+    "name": "GPT 5.2 2025.12 11",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.2-pro-2025-12-11": {
+    "name": "GPT 5.2 Pro 2025.12 11",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.4-2026-03-05": {
+    "name": "GPT 5.4 2026.03 05",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.4-mini-2026-03-17": {
+    "name": "GPT 5.4 Mini 2026.03 17",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.4-nano-2026-03-17": {
+    "name": "GPT 5.4 Nano 2026.03 17",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 400000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.4-pro-2026-03-05": {
+    "name": "GPT 5.4 Pro 2026.03 05",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.5-2026-04-23": {
+    "name": "GPT 5.5 2026.04 23",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/gpt-5.5-pro-2026-04-23": {
+    "name": "GPT 5.5 Pro 2026.04 23",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 1050000,
+      "max_output_tokens": 128000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/o1-2024-12-17": {
+    "name": "O1 2024.12 17",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/o1-pro-2025-03-19": {
+    "name": "O1 Pro 2025.03 19",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/o3-2025-04-16": {
+    "name": "O3 2025.04 16",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "openai/o3-mini-2025-01-31": {
+    "name": "O3 Mini 2025.01 31",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "openai/o4-mini-2025-04-16": {
+    "name": "O4 Mini 2025.04 16",
+    "api_types": [
+      "responses"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 100000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "deepseek/deepseek-v4-pro": {
+    "name": "DeepSeek V4 Pro",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1048576,
+      "max_output_tokens": 384000,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "deepseek/deepseek-v4-flash": {
+    "name": "DeepSeek V4 Flash",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1048576,
+      "max_output_tokens": 384000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "deepseek/deepseek-flash": {
+    "name": "DeepSeek V4.1 Flash",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1048576,
+      "max_output_tokens": 384000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "kimi/kimi-k3": {
+    "name": "Kimi K3",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1048576,
+      "max_output_tokens": 1048576,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "kimi/kimi-k2.7-code-highspeed": {
+    "name": "Kimi K2.7 Code Highspeed",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 262144,
+      "max_output_tokens": 262144,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "kimi/kimi-k2.7-code": {
+    "name": "Kimi K2.7 Code",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 262144,
+      "max_output_tokens": 262144,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "kimi/kimi-k2.6": {
+    "name": "Kimi K2.6",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 262144,
+      "max_output_tokens": 262144,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "kimi/kimi-k2.5": {
+    "name": "Kimi K2.5",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 262144,
+      "max_output_tokens": 262144,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "kimi/kimi-latest": {
+    "name": "Kimi Latest",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1048576,
+      "max_output_tokens": 1048576,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "zai/glm-5.3": {
+    "name": "Glm 5.3",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "zai/glm-5.3-flash": {
+    "name": "Glm 5.3 Flash",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "zai/glm-5.2": {
+    "name": "Glm 5.2",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "zai/glm-5.1": {
+    "name": "Glm 5.1",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "zai/glm-5-turbo": {
+    "name": "Glm 5 Turbo",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "zai/glm-5": {
+    "name": "Glm 5",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 204800,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "zai/glm-4.7": {
+    "name": "Glm 4.7",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 204800,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "zai/glm-4.6": {
+    "name": "Glm 4.6",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 204800,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "zai/glm-4.5-air": {
+    "name": "Glm 4.5 Air",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 131072,
+      "max_output_tokens": 98304,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "zai/glm-4.5": {
+    "name": "Glm 4.5",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 131072,
+      "max_output_tokens": 98304,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "xai/grok-4.5": {
+    "name": "Grok 4.5",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 500000,
+      "max_output_tokens": 500000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "xai/grok-4.6": {
+    "name": "Grok 4.6",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 500000,
+      "max_output_tokens": 500000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "xai/grok-4.7": {
+    "name": "Grok 4.7",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 500000,
+      "max_output_tokens": 500000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "xai/grok-4.3": {
+    "name": "Grok 4.3",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 30000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "xai/grok-4.20-multi-agent-0309": {
+    "name": "Grok 4.20 Multi Agent 0309",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 30000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "xai/grok-4.20-0309-reasoning": {
+    "name": "Grok 4.20 0309 Reasoning",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 30000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "xai/grok-4.20-0309-non-reasoning": {
+    "name": "Grok 4.20 0309 Non Reasoning",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1000000,
+      "max_output_tokens": 30000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "xai/grok-build-0.1": {
+    "name": "Grok Build 0.1",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 256000,
+      "max_output_tokens": 256000,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "perplexity/sonar-pro": {
+    "name": "Sonar Pro",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 200000,
+      "max_output_tokens": 8192,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": true
+    }
+  },
+  "perplexity/sonar-reasoning-pro": {
+    "name": "Sonar Reasoning Pro",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "perplexity/sonar-reasoning": {
+    "name": "Sonar Reasoning",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "perplexity/sonar-deep-research": {
+    "name": "Sonar Deep Research",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 32768,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": false
+    }
+  },
+  "perplexity/sonar": {
+    "name": "Sonar",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 128000,
+      "max_output_tokens": 4096,
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": false,
+      "supports_vision": false
+    }
+  },
+  "fireworks/accounts/fireworks/models/ember-1": {
+    "name": "Ember 1",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1048576,
+      "max_output_tokens": 131072,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  },
+  "google/gemini-4-argon": {
+    "name": "Gemini 4 Argon",
+    "api_types": [
+      "chat_completions"
+    ],
+    "capabilities": {
+      "context_length": 1048576,
+      "max_output_tokens": 65536,
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "supports_tool_use": true,
+      "supports_streaming": true,
+      "supports_reasoning": true,
+      "supports_vision": true
+    }
+  }
+}
